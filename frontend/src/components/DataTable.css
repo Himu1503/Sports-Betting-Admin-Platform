@@ -1,0 +1,72 @@
+.data-table-container {
+  overflow-x: auto;
+  background: hsl(var(--card));
+  border-radius: calc(var(--radius));
+  border: 1px solid hsl(var(--border));
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table thead {
+  background-color: hsl(var(--muted));
+}
+
+.data-table th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+  color: hsl(var(--foreground));
+  font-size: 0.875rem;
+}
+
+.data-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid hsl(var(--border));
+  color: hsl(var(--foreground));
+  font-size: 0.875rem;
+}
+
+.data-table tbody tr:hover {
+  background-color: hsl(var(--accent) / 0.5);
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.actions-cell {
+  white-space: nowrap;
+}
+
+.actions-cell button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.25rem;
+  transition: transform 0.2s;
+}
+
+.actions-cell button:hover {
+  transform: scale(1.2);
+}
+
+.loading, .empty-message {
+  text-align: center;
+  padding: 3rem;
+  color: hsl(var(--muted-foreground));
+  font-size: 1rem;
+}
+
+.empty-message {
+  background: hsl(var(--card));
+  border-radius: calc(var(--radius));
+  border: 1px solid hsl(var(--border));
+}
+

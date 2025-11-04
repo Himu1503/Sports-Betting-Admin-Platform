@@ -1,0 +1,59 @@
+# Ignore files that shouldn't be deployed to Vercel
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+htmlcov/
+.coverage
+*.log
+logs/
+.env
+.env.local
+.env.*.local
+
+# Docker files
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Test files
+tests/
+*.test.py
+*_test.py
+pytest.ini
+.coverage
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database init files (only needed for local Docker setup)
+init/
+
+# Monitoring (not needed on Vercel)
+prometheus/
+grafana/
+
+# Backend virtual environment
+backend/venv/
+
+# Frontend build artifacts (will be rebuilt)
+frontend/dist/
+frontend/node_modules/
+
