@@ -172,15 +172,4 @@ docker-compose exec backend pytest
 ```
 
 
-## AI Used(Honeslty)
-
-AI assistance was used during development for:
-- Writing boilerplate code for backend and frontend components. 
-- Setting up and configuring the **shadcn/ui** library for a consistent and modern UI framework and TS config.
-- Fixing docker compose file. 
-- Writing YML for Grafana and Prometheus.
-- Setting up scriptsPytest via docker. 
-
----
-
 
