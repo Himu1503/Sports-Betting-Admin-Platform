@@ -9,6 +9,7 @@
   - Pytest for the backend.
   - Charts analysis for the users.
   - Monitoring of APIs performance using Grafana and Prometheus.
+  - Audit Logs. 
 
 
 ### 1. Extract the Project
